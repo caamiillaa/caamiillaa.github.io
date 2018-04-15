@@ -20,12 +20,8 @@ header {
   background-size: cover; }
 
 .wrapper {
-  margin: 0;
-  /* display: flex;
-  justify-content: center;
-  padding-left: 15px;
-  padding-right: 15px;
-*/ }
+  max-width: 956px;
+  margin: 0 auto; }
 
 .element-block {
   display: block; }
