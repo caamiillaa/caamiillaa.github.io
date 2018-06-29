@@ -116,8 +116,7 @@ li {
   .title-box--description__subtitle {
     font-size: 2em;
     margin: 0; }
-  .title-box__about-box {
-    flex-basis: 80%; }
+  .title-box__about-box {}
 
 section {
   margin: 4em 0;
@@ -125,7 +124,7 @@ section {
 
 .about--item {
   margin-bottom: 2.5em;
-  padding-left: 4em; }
+  padding-left: 1em; }
   .about--item__title {
     font-size: 1em;
     font-weight: 400;
