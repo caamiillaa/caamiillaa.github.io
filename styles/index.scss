@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,700");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
 
 body {
   background: #ffffff;
@@ -14,6 +14,8 @@ body {
 }
 
 p { color: #808080; }
+
+strong { font-weight: 500; }
 
 header {
   -webkit-background-size: cover;
@@ -162,7 +164,7 @@ section {
   width: 100%;
 
   &::before {
-    background: #395160;
+    background: #000;
     bottom: 2em;
     content: "\A";
     display: block;
@@ -182,7 +184,7 @@ section {
     }
 
     &__date {
-      color: #f78f6a;
+      color: #f54f65;
       padding-left: 2.5em;
       position: relative;
       width: 50%;
@@ -191,8 +193,8 @@ section {
       &::before {
         -webkit-border-radius: 100%;
         -moz-border-radius: 100%;
-        background: #81d8d0;
-        border: 2px solid #81d8d0;
+        background: #f78f6a;
+        border: 2px solid #f78f6a;
         border-radius: 100%;
         content: "\A";
         display: block;
@@ -226,7 +228,7 @@ section {
     }
 
     &__number {
-      font-weight: 700;
+      font-weight: 500;
       padding: 0 0.5em;
     }
 

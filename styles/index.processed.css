@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,700");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,500");
 body {
   background: #ffffff;
   color: #333333;
@@ -13,6 +13,8 @@ body {
 
 p {
   color: #808080; }
+
+strong { font-weight: 500; }
 
 header {
   -webkit-background-size: cover;
@@ -137,7 +139,7 @@ section {
   overflow: hidden;
   width: 100%; }
   .timeline::before {
-    background: #395160;
+    background: #000;
     bottom: 2em;
     content: "\A";
     display: block;
@@ -152,7 +154,7 @@ section {
       content: "";
       display: table; }
     .timeline--row__date {
-      color: #f78f6a;
+      color: #f54f65;
       padding-left: 2.5em;
       position: relative;
       width: 50%;
@@ -160,8 +162,8 @@ section {
       .timeline--row__date::before {
         -webkit-border-radius: 100%;
         -moz-border-radius: 100%;
-        background: #f54f65;
-        border: 2px solid #f54f65;
+        background: #f78f6a;
+        border: 2px solid #f78f6a;
         border-radius: 100%;
         content: "\A";
         display: block;
@@ -182,7 +184,7 @@ section {
     overflow: hidden;
     text-transform: uppercase; }
   .skill-progress-bar--item__number {
-    font-weight: 700;
+    font-weight: 500;
     padding: 0 0.5em; }
   .skill-progress-bar--item__progress {
     -webkit-border-radius: 0px;
