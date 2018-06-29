@@ -152,7 +152,7 @@ section {
       content: "";
       display: table; }
     .timeline--row__date {
-      color: #5a9791;
+      color: #f78f6a;
       padding-left: 2.5em;
       position: relative;
       width: 50%;
@@ -171,7 +171,7 @@ section {
         top: 6px;
         width: 0.5em; }
     .timeline--row small {
-      color: #5a9791; }
+      color: #f78f6a; }
 
 .skill-progress-bar {
   margin: 1em 0; }
@@ -253,9 +253,11 @@ section {
 
 footer {
   background: #f54f65;
-  color: #ffffff;
   padding: 2em;
-  overflow-x: hidden; }
+  overflow-x: hidden; 
+}
+
+footer p { color: #ffffff; }
 
 .footer__right {
   font-size: 0.75em; }

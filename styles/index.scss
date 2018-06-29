@@ -182,7 +182,7 @@ section {
     }
 
     &__date {
-      color: #5a9791;
+      color: #f78f6a;
       padding-left: 2.5em;
       position: relative;
       width: 50%;
@@ -205,7 +205,7 @@ section {
     }
 
     small {
-      color: #5a9791;
+      color: #f78f6a;
     }
   }
 }
@@ -326,9 +326,12 @@ section {
 
 footer {
   background: #81d8d0;
-  color: #ffffff;
   padding: 2em;
   overflow-x: hidden;
+
+  p {
+    color: #ffffff;
+  }
 }
 
 .footer {
