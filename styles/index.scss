@@ -1,6 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,400");
-@import url("https://fonts.googleapis.com/css?family=Rubik:400,700");
-
 body {
   background: #ffffff;
   color: #333333;
@@ -34,10 +32,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Rubik", sans-serif;
-  font-weight: 400;
-}
+h6 { font-weight: 400; }
 
 ul {
   padding: 0;
@@ -66,7 +61,6 @@ li {
   max-height: 340px;
 
   &--logo {
-    font-family: "Rubik", sans-serif;
     font-size: 2em;
     font-weight: 700;
     padding: 0.5em 0;
@@ -160,7 +154,6 @@ section {
 //timeline
 
 .timeline {
-  font-family: "Rubik", sans-serif;
   margin-top: 1em;
   position: relative;
   overflow: hidden;
@@ -219,7 +212,6 @@ section {
 
 .skill-progress-bar {
   margin: 1em 0;
-  font-family: "Rubik", sans-serif;
 
   &--item {
     &__title {
@@ -231,7 +223,6 @@ section {
     }
 
     &__number {
-      font-family: "Roboto Mono", sans-serif;
       font-weight: 700;
       padding: 0 0.5em;
     }
