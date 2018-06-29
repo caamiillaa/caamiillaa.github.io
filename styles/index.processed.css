@@ -67,9 +67,8 @@ li {
   border-bottom: 1px solid #f54f65;
   max-height: 340px; }
   .navbar--logo {
-    font-size: 2em;
-    font-weight: 700;
-    padding: 0.5em 0; }
+    padding: 0.55em 0 0;
+    max-width: 200px; }
   .navbar--links li {
     list-style: none; }
   .navbar--links a {
