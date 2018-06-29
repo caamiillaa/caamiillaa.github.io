@@ -57,7 +57,7 @@ li {
 
 .navbar {
   background: #ffffff;
-  border-bottom: 1px solid #81d8d0;
+  border-bottom: 1px solid #f54f65;
   max-height: 340px;
 
   &--logo {
@@ -189,8 +189,8 @@ section {
       &::before {
         -webkit-border-radius: 100%;
         -moz-border-radius: 100%;
-        background: #81d8d0;
-        border: 2px solid #81d8d0;
+        background: #f54f65;
+        border: 2px solid #f54f65;
         border-radius: 100%;
         content: "\A";
         display: block;
@@ -230,7 +230,7 @@ section {
     &__progress {
       -webkit-border-radius: 0px;
       -moz-border-radius: 0px;
-      background: #81d8d0;
+      background: #f54f65;
       border-radius: 0px;
       box-shadow: none;
       height: 2px;
@@ -246,7 +246,7 @@ section {
 }
 
 .dots {
-  color: #81d8d0;
+  color: #f54f65;
 }
 
 //contact
@@ -262,7 +262,7 @@ section {
       -moz-transition: color 100ms ease;
       -ms-transition: color 100ms ease;
       -o-transition: color 100ms ease;
-      color: #81d8d0;
+      color: #f54f65;
       transition: color 100ms ease;
     }
   }
@@ -312,8 +312,8 @@ section {
     -moz-transition: color 100ms ease;
     -ms-transition: color 100ms ease;
     -o-transition: color 100ms ease;
-    background: #81d8d0;
-    border: 1px solid #81d8d0;
+    background: #f54f65;
+    border: 1px solid #f54f65;
     color: #fff;
   }
 }
@@ -322,7 +322,7 @@ section {
 //footer
 
 footer {
-  background: #81d8d0;
+  background: #f54f65;
   color: #ffffff;
   padding: 2em;
   overflow-x: hidden;

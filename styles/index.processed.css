@@ -65,7 +65,7 @@ li {
 
 .navbar {
   background: #ffffff;
-  border-bottom: 1px solid #81d8d0;
+  border-bottom: 1px solid #f54f65;
   max-height: 340px; }
   .navbar--logo {
     font-size: 2em;
@@ -162,8 +162,8 @@ section {
       .timeline--row__date::before {
         -webkit-border-radius: 100%;
         -moz-border-radius: 100%;
-        background: #81d8d0;
-        border: 2px solid #81d8d0;
+        background: #f54f65;
+        border: 2px solid #f54f65;
         border-radius: 100%;
         content: "\A";
         display: block;
@@ -189,7 +189,7 @@ section {
   .skill-progress-bar--item__progress {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
-    background: #81d8d0;
+    background: #f54f65;
     border-radius: 0px;
     box-shadow: none;
     height: 2px;
@@ -200,7 +200,7 @@ section {
     text-indent: 2em; }
 
 .dots {
-  color: #81d8d0; }
+  color: #f54f65; }
 
 .contact a {
   color: #333333;
@@ -210,7 +210,7 @@ section {
     -moz-transition: color 100ms ease;
     -ms-transition: color 100ms ease;
     -o-transition: color 100ms ease;
-    color: #81d8d0;
+    color: #f54f65;
     transition: color 100ms ease; }
 .contact .fa {
   margin-right: 1em; }
@@ -249,12 +249,12 @@ section {
     -moz-transition: color 100ms ease;
     -ms-transition: color 100ms ease;
     -o-transition: color 100ms ease;
-    background: #81d8d0;
-    border: 1px solid #81d8d0;
+    background: #f54f65;
+    border: 1px solid #f54f65;
     color: #fff; }
 
 footer {
-  background: #81d8d0;
+  background: #f54f65;
   color: #ffffff;
   padding: 2em;
   overflow-x: hidden; }
