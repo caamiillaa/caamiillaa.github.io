@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,400");
+@import url("https://fonts.googleapis.com/css?family=Rubik:400,700");
+
 body {
   background: #ffffff;
   color: #333333;
-  font-family: "Roboto Mono", sans-serif;
+  font-family: "Rubik", sans-serif;
   font-size: 16px;
   height: 100%;
   letter-spacing: 0.5px;
@@ -19,9 +20,7 @@ header {
   background-size: cover;
 }
 
-.wrapper {
-  margin: 0 auto;
-}
+.wrapper { margin: 0 auto; }
 
 .element-block {
   display: block;
@@ -32,7 +31,10 @@ h2,
 h3,
 h4,
 h5,
-h6 { font-weight: 400; }
+h6 {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+}
 
 ul {
   padding: 0;
@@ -57,10 +59,11 @@ li {
 
 .navbar {
   background: #ffffff;
-  border-bottom: 1px solid #f54f65;
+  border-bottom: 1px solid #81d8d0;
   max-height: 340px;
 
   &--logo {
+    font-family: "Rubik", sans-serif;
     font-size: 2em;
     font-weight: 700;
     padding: 0.5em 0;
@@ -154,6 +157,7 @@ section {
 //timeline
 
 .timeline {
+  font-family: "Rubik", sans-serif;
   margin-top: 1em;
   position: relative;
   overflow: hidden;
@@ -189,8 +193,8 @@ section {
       &::before {
         -webkit-border-radius: 100%;
         -moz-border-radius: 100%;
-        background: #f54f65;
-        border: 2px solid #f54f65;
+        background: #81d8d0;
+        border: 2px solid #81d8d0;
         border-radius: 100%;
         content: "\A";
         display: block;
@@ -212,6 +216,7 @@ section {
 
 .skill-progress-bar {
   margin: 1em 0;
+  font-family: "Rubik", sans-serif;
 
   &--item {
     &__title {
@@ -230,7 +235,7 @@ section {
     &__progress {
       -webkit-border-radius: 0px;
       -moz-border-radius: 0px;
-      background: #f54f65;
+      background: #81d8d0;
       border-radius: 0px;
       box-shadow: none;
       height: 2px;
@@ -246,7 +251,7 @@ section {
 }
 
 .dots {
-  color: #f54f65;
+  color: #81d8d0;
 }
 
 //contact
@@ -262,7 +267,7 @@ section {
       -moz-transition: color 100ms ease;
       -ms-transition: color 100ms ease;
       -o-transition: color 100ms ease;
-      color: #f54f65;
+      color: #81d8d0;
       transition: color 100ms ease;
     }
   }
@@ -312,8 +317,8 @@ section {
     -moz-transition: color 100ms ease;
     -ms-transition: color 100ms ease;
     -o-transition: color 100ms ease;
-    background: #f54f65;
-    border: 1px solid #f54f65;
+    background: #81d8d0;
+    border: 1px solid #81d8d0;
     color: #fff;
   }
 }
@@ -322,7 +327,7 @@ section {
 //footer
 
 footer {
-  background: #f54f65;
+  background: #81d8d0;
   color: #ffffff;
   padding: 2em;
   overflow-x: hidden;
