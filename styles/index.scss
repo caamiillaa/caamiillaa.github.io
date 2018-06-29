@@ -34,7 +34,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rubik", sans-serif;
   font-weight: 400;
 }
 
@@ -157,7 +156,6 @@ section {
 //timeline
 
 .timeline {
-  font-family: "Rubik", sans-serif;
   margin-top: 1em;
   position: relative;
   overflow: hidden;
@@ -216,7 +214,6 @@ section {
 
 .skill-progress-bar {
   margin: 1em 0;
-  font-family: "Rubik", sans-serif;
 
   &--item {
     &__title {
@@ -292,6 +289,7 @@ section {
   }
 
   &--textarea-box {
+    font-family: "Rubik", sans-serif;
     height: 140px;
     margin-top: 20px;
     margin-bottom: 20px;
